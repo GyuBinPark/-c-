@@ -1,13 +1,10 @@
-# -씨-
+#include <stdio.h>
 int main()
-{
+{	
 	int i;
-	char arr[10] = {'"','G','o','o','d', 't','i','m','e','"'};
-	
-	for (i = 0; i < 5; i++)
-		printf("%c", arr[i]);
-	printf("\t");
-	for (i = 5; i < 10; i++)
+	char arr[11] = {"\"Good time\""};
+
+	for(i=0;i<11;i++)
 		printf("%c", arr[i]);
 	return 0;
 }
